@@ -1,0 +1,29 @@
+用  git  作为指令前缀 驱动 git 	git帮忙处理相应指令；
+
+
+初始化git 
+	git init
+
+设置你的github属于谁
+
+git config --global user.name "你的git名称"
+git config --global useer.email "你的git验证邮箱"
+
+如果报错： please tell me who you are
+找到gitconfig 也可以修改git属于谁的数据
+
+
+
+git add   
+	把工作区文件放入暂存区中
+git add -A 
+	把工作区的所有文件放入暂存区
+git status  
+	查看暂存区状态
+git commit 	
+	把暂存区文件放入仓库中
+git commit -m "注释"
+
+git reflog	"查看commit创建的版本哈希值"
+
+git reset --hard 哈希值	版本回溯
